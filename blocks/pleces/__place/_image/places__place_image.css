@@ -1,0 +1,18 @@
+.places__place_image {
+    max-width: 460px;
+    max-height: 460px;
+}
+
+@media screen and (max-width: 1020px) {
+    .places__place_image {
+        max-width: 340px;
+        max-height: 340px;
+    }
+}
+
+@media screen and (max-width: 762px) {
+    .places__place_image {
+        max-width: 320px;
+        max-height: 320px;
+    }
+}

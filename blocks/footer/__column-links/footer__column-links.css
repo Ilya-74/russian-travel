@@ -1,0 +1,19 @@
+.footer__column-links {
+    max-width: 465px;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: 50px 57px 94px 86px 106px;
+    gap: 18px;
+}
+
+@media screen and (max-width: 762px) {
+    .footer__column-links {
+        max-width: 186px;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+        grid-auto-flow: column;
+        gap: 32px;
+    }   
+}

@@ -1,0 +1,11 @@
+.place__image {
+    grid-area: footer;
+}
+
+@media screen and (max-width: 762px) {
+    .place__image {
+        grid-area: content;
+        grid-row-start: 3;
+        grid-row-end: 4;
+    }
+}

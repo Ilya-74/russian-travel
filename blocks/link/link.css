@@ -1,0 +1,13 @@
+.link {
+    position: relative;
+}
+
+.link:hover:before {
+    content: "";
+    position: absolute;
+    background: rgba(42, 44, 47, 0.8);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}

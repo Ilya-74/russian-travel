@@ -1,0 +1,15 @@
+.place__paragraph {
+    grid-area: footer;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    align-self: flex-start;
+    margin: 0;
+}
+
+@media screen and (max-width: 762px) {
+    .place__paragraph {
+        grid-area: footer;
+        grid-row-start: 4;
+        grid-row-end: 5;
+    }
+}

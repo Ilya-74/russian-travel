@@ -1,0 +1,29 @@
+.place {
+    display: grid;
+    align-items: end;
+    grid-template-columns: 460px 1fr;
+    gap: 48px 40px;
+    grid-template-areas:
+      "header header"
+      "footer footer";  
+}
+
+@media screen and (max-width: 1020px) {
+  .place {
+    grid-template-columns: 340px 1fr;
+    gap: 48px 28px;
+    align-items: baseline;
+  }
+}
+
+@media screen and (max-width: 762px) {
+  .place {
+    grid-template-columns: 320px;
+    gap: 32px;
+    grid-template-areas:
+    "header"
+    "content"
+    "content"
+    "footer";
+  }
+}
