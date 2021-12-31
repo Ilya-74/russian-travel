@@ -1,4 +1,4 @@
-.place__website_link {
+.place__website-link {
     display: inline-block;
     max-width: 456px;
     max-height: 22px;
@@ -14,7 +14,7 @@
 }
 
 @media screen and (max-width: 762px) {
-    .place__website_link {
+    .place__website-link {
         max-width: 288px;
         max-height: 22px;
     }
