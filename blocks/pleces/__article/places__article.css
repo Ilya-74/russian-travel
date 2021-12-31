@@ -1,9 +1,9 @@
-.places__article_place {
+.places__article {
     margin-bottom: 80px;
 }
 
 @media screen and (max-width: 762px) {
-    .places__article_place {
+    .places__article {
         margin: 0;
     }
 }
