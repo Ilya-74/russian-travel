@@ -9,9 +9,9 @@
 <body class="root">
   <div class="page">
     <header class="header">
-      <a href="#" class="header__logo"><img src="./sprint-3-images/header-logo.svg" alt="Логотип"></a>
-      <a class="header__lang-link" href="#">Ru</a>    
-      <a class="header__lang-link" style="text-decoration:none" href="#">En</a>
+      <a href="#"><img class="header__logo" src="./sprint-3-images/header-logo.svg" alt="Логотип"></a>
+      <a class="header__lang-link link" href="#">Ru</a>    
+      <a class="header__lang-link header__lang-link_active link" href="#">En</a>
     </header>  
     <main class="content">
       <section class="lead">
@@ -35,11 +35,11 @@
           Мы выбрали и описали некоторые интересные места, достойные вашего отпуска.
         </p>
         <ul class="intro__list">
-          <li>Часовых поясов 11</li>
-          <li>Объектов природного наследия ЮНЕСКО 12</li>
-          <li>Объектов культурного наследия ЮНЕСКО 16</li>
-          <li>Природных заповедников 105</li>
-          <li>Аэропортов 241</li>
+          <li>Часовых поясов <span class="intro__span-accent">11</span></li>
+          <li>Объектов природного наследия ЮНЕСКО <span class="intro__span-accent">12</span></li>
+          <li>Объектов культурного наследия ЮНЕСКО <span class="intro__span-accent">16</span></li>
+          <li>Природных заповедников <span class="intro__span-accent">105</span></li>
+          <li>Аэропортов <span class="intro__span-accent">241</span></li>
         </ul>
       </section>
 
@@ -84,97 +84,97 @@
 
       <section class="places">
         <article class="place places__article">
-          <h2 class="place__title places__title">Куршская коса</h2>
-          <img class="place__image places__image" src="./sprint-3-images/place-kosa.jpg" alt="Картинка Куршского залива">
-          <aside class="place__website places__website">
+          <h2 class="place__title">Куршская коса</h2>
+          <img class="place__image" src="./sprint-3-images/place-kosa.jpg" alt="Картинка Куршского залива">
+          <aside class="place__website">
             <h3 class="place__website-url">URL</h3>
-            <a class="place__website-link" href="http://www.park-kosa.ru" target="_blank">park-kosa.ru</a>
+            <a class="place__website-link link" href="http://www.park-kosa.ru" target="_blank">park-kosa.ru</a>
           </aside>
-          <blockquote class="place__paragraph places__blockquote">
-            <p class="places__paragraph">
+          <div class="place__main-text">
+            <p class="place__paragraph">
               Здесь, посреди лесов и песчаных дюн, вы сможете увидеть два водных горизонта — спокойного 
               Куршского залива с одной стороны и подёрнутого рябью волн Балтийского моря с другой. 
               Уникальная природная зона на краю российского анклава.
             </p>
-            <p class="places__paragraph">
+            <p class="place__paragraph">
               На этом Калининградская область не заканчивается. Для путешественника и исследователя там же по 
               соседству — самая западная точка России, Балтийская коса, — и немецкое наследие россыпи 
               небольших приморских городов. Атмосфера здешних мест исключает суету, окуная в спокойствие 
               природы и запах стального, прохладного моря.
             </p>
-          </blockquote>
+          </div>
         </article>
         <article class="place places__article">
-          <h2 class="place__title places__title-place">Кольский</h2>
-          <img class="place__image places__image" src="./sprint-3-images/place-kolsky.jpg" alt="Картинка Кольский полуостров">
-          <aside class="place__website places__website">
+          <h2 class="place__title place__title_heading_style">Кольский</h2>
+          <img class="place__image" src="./sprint-3-images/place-kolsky.jpg" alt="Картинка Кольский полуостров">
+          <aside class="place__website">
             <h3 class="place__website-url">URL</h3>
-            <a class="place__website-link" href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy" target="_blank">National Geographic</a>
+            <a class="place__website-link link" href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy" target="_blank">National Geographic</a>
           </aside>
-          <blockquote class="place__paragraph places__blockquote">
-            <p class="places__paragraph">
+          <div class="place__main-text">
+            <p class="place__paragraph">
               Почти весь полуостров находится за Полярным кругом. Саамская тундра, от которой на юг — 
               тайга, а на север — Ледовитый океан, прикидывающийся Баренцевым морем.
             </p>
-            <p class="places__paragraph">
+            <p class="place__paragraph">
               Возможно, вы смотрели Звягинцева и даже слышали историю арктического фестиваля в Териберке. 
               Возможно, слово «Хибины» не осталось под снегом школьных воспоминаний об уроках географии. 
               Возможно, вы не интересовались пронизывающей земную кору сверхглубокой скважиной, 
               а от апатитов вас давно накрывает апатия. Но ваша мечта увидеть 
               северное сияние начинает сбываться с билетом в Мурманск.
             </p>
-          </blockquote>
+          </div>
         </article>
         <article class="place places__article">
-          <h2 class="place__title places__title-place">Алтай</h2>
-          <img class="place__image places__image" src="./sprint-3-images/place-altai.jpg" alt="Картинка Алтай">
-          <aside class="place__website places__website">
+          <h2 class="place__title place__title_heading_style">Алтай</h2>
+          <img class="place__image" src="./sprint-3-images/place-altai.jpg" alt="Картинка Алтай">
+          <aside class="place__website">
             <h3 class="place__website-url">URL</h3>
             <a class="place__website-link link" href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822" target="_blank">Facebook</a>
           </aside>
-          <blockquote class="place__paragraph places__blockquote">
-            <p class="places__paragraph">
+          <div class="place__main-text">
+            <p class="place__paragraph">
               Алтай — одно из красивейших мест в России. В первую очередь из-за гор: если ехать вдоль хребта, 
               вы увидите склоны, усыпанные соснами, горные реки и озёра. А если вы откроете в автомобиле окна, 
               сможете познакомиться с невидимым чудом здешних мест — горным воздухом.
             </p>
-            <p class="places__paragraph">
+            <p class="place__paragraph">
               Климат на Алтае умеренный, поэтому ехать сюда лучше всего летом. 
               Так вы увидите всё разнообразие местной флоры и фауны. По лесам Алтая бродят лоси, 
               над хребтами летают орлы, а на равнинах пасутся косули. И знаменитые манулы — тоже обитатели 
               Алтайского края.
             </p>
-          </blockquote>
+          </div>
         </article>
         <article class="place places__article">
-          <h2 class="place__title places__title-place">Зимний Байкал</h2>
-          <img class="place__image places__image" src="./sprint-3-images/place-winter-baikal.jpg" alt="Картинка озеро Байкал">
-          <aside class="place__website places__website">
+          <h2 class="place__title place__title_heading_style">Зимний Байкал</h2>
+          <img class="place__image" src="./sprint-3-images/place-winter-baikal.jpg" alt="Картинка озеро Байкал">
+          <aside class="place__website">
             <h3 class="place__website-url">URL</h3>
-            <a class="place__website-link" href="https://vk.com/baikalmile" target="_blank">https://vk.com/baikalmile</a>
+            <a class="place__website-link link" href="https://vk.com/baikalmile" target="_blank">https://vk.com/baikalmile</a>
           </aside>
-          <blockquote class="place__paragraph places__blockquote">
-            <p class="places__paragraph">
+          <div class="place__main-text">
+            <p class="place__paragraph">
               Всем известен Байкал как крупнейшее озеро в мире. Многие также знают, 
               что это самый большой источник пресной воды и одно из красивейших мест в России.
             </p>
-            <p class="places__paragraph">
+            <p class="place__paragraph">
               Конечно, это всё так. Но Байкал ещё идеальное место для соревнований по скийорингу. 
               Это такой вид спорта, когда лыжник привязывает себя к мотоциклу, 
               и тандем старается развить как можно бóльшую скорость на льду. 
               В марте 2019 года на фестивале «Байкальская миля» был поставлен мировой рекорд — 197.011 км/ч.
             </p>
-          </blockquote>
+          </div>
         </article>
         <article class="place">
-          <h2 class="place__title places__title-place">Карелия</h2>
-          <img class="place__image places__image" src="./sprint-3-images/place-karelia.jpg" alt="Картинка Карелия">
-          <aside class="place__website places__website">
+          <h2 class="place__title place__title_heading_style">Карелия</h2>
+          <img class="place__image" src="./sprint-3-images/place-karelia.jpg" alt="Картинка Карелия">
+          <aside class="place__website">
             <h3 class="place__website-url">URL</h3>
-            <a class="place__website-link" href="http://vodlozero.ru" target="_blank">http://vodlozero.ru/</a>
+            <a class="place__website-link link" href="http://vodlozero.ru" target="_blank">http://vodlozero.ru/</a>
           </aside>
-          <blockquote class="place__paragraph places__blockquote">
-            <p class="places__paragraph">
+          <div class="place__main-text">
+            <p class="place__paragraph">
               Сибирь заканчивается не на Урале, а в Карелии: образующая тайгу сибирская лиственница не растёт 
               западнее Водлозера. Зато здесь она вымахивает на 30 метров — леса карельских национальных парков 
               из-за непроходимых болот никогда не знали топора. Некоторым соснам уже больше чем полтысячелетия. 
@@ -182,18 +182,17 @@
               В девственном лесу на сотню километров не встретишь тропы. А на редких тропинках деревья 
               в паре метров от земли помечены медвежьими когтями. Чтобы все знали, кто тут хозяин.
             </p>
-          </blockquote>
+          </div>
         </article>
       </section>
 
       <section class="cover">
-        <h2 class="cover__title">
-        <a class="cover__title-link" target="_blank" href="https://stampsy.com/na-elektrichkakh-do-baikala">До Байкала «на собаках»</a>
-        </h2>
-        <p class="cover__subtitle">
-          По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.
-        </p>
-
+        <a class="cover__link" target="_blank" href="https://stampsy.com/na-elektrichkakh-do-baikala">
+          <h2 class="cover__title">До Байкала «на собаках»</h2>
+          <p class="cover__subtitle">
+            По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.
+          </p>
+        </a>
       </section>
      
     </main>
@@ -204,16 +203,16 @@
             <a href="https://yandex.ru/maps" class="footer__column-link link" target="_blank">Карты</a>
           </li>
           <li>
-            <a href="https://yandex.ru/pogoda" class="footer__column-link" target="_blank">Погода</a>
+            <a href="https://yandex.ru/pogoda" class="footer__column-link link" target="_blank">Погода</a>
           </li>
           <li>
-            <a href="https://rasp.yandex.ru" class="footer__column-link" target="_blank">Расписание</a>
+            <a href="https://rasp.yandex.ru" class="footer__column-link link" target="_blank">Расписание</a>
           </li>
           <li>
-            <a href="https://calendar.yandex.ru" class="footer__column-link" target="_blank">Календарь</a>
+            <a href="https://calendar.yandex.ru" class="footer__column-link link" target="_blank">Календарь</a>
           </li>
           <li>
-            <a href="https://travel.yandex.ru" class="footer__column-link" target="_blank">Путешествия</a>
+            <a href="https://travel.yandex.ru" class="footer__column-link link" target="_blank">Путешествия</a>
           </li>
         </ul>
       </nav>
