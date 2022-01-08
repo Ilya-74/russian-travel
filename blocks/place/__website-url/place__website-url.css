@@ -1,6 +1,5 @@
 .place__website-url {
     max-width: 456px;
-    max-height: 12px;
     margin: 0;
     font-family: 'Inter', "Arial", sans-serif;
     font-style: normal;
@@ -14,6 +13,5 @@
 @media screen and (max-width: 762px) {
     .place__website-url {
         max-width: 288px;
-        max-height: 12px;
     }
 }

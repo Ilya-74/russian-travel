@@ -4,6 +4,6 @@
 
 @media screen and (max-width: 762px) {
     .places__article {
-        margin: 0;
+        margin-bottom: 50px;
     }
 }

@@ -10,17 +10,12 @@
     color: #FFFFFF;
 }
 
-@media screen and (max-width: 1020px) {
-    .intro__title  {
-        color: rgba(255, 255, 255, 0.68);
-    }
-}
-
 @media screen and (max-width: 762px) {
     .intro__title  {
         max-width: 288px;
         font-size: 32px;
         line-height: 35px;
-        color: #FFFFFF;
+       
+        
     }
 }

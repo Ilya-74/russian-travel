@@ -1,7 +1,6 @@
 .place__website-link {
     display: inline-block;
     max-width: 456px;
-    max-height: 22px;
     margin: 0;
     margin-top: 12px;
     font-family: 'Inter', "Arial", sans-serif;
@@ -16,6 +15,5 @@
 @media screen and (max-width: 762px) {
     .place__website-link {
         max-width: 288px;
-        max-height: 22px;
     }
 }

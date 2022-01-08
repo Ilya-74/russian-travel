@@ -1,6 +1,6 @@
 .header {
     max-width: 1184px;
-    margin: 28px 48px 0 48px;
+    margin: 28px auto 0;
     display: grid;
     grid-template-columns: 176px 1fr 30px;
     justify-items: end;
@@ -8,15 +8,24 @@
     column-gap: 18px;
 }
 
+@media screen and (max-width: 1120px) {
+    .header {
+        max-width: 928px;
+    }   
+}
+
 @media screen and (max-width: 1020px) {
     .header {
-        margin: 28px 24px 48px 24px;
+        max-width: 720px;
+        margin-bottom: 48px;
     }
 }
 
 @media screen and (max-width: 762px) {
     .header {
+        max-width: 288px;
         grid-template-columns: 142px 1fr 22px;
-        margin: 16px 16px 48px;
+        grid-template-rows: 42px;
+        margin-top: 16px;
     }
 }
